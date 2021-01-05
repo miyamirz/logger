@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "ninja-logger",
   "version": "1.0.0",
   "description": "sample logger package",
   "main": "index.js",
