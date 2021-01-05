@@ -1,2 +1,2 @@
 # logger
-Sample npm package
+Sample logger package

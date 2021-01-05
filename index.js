@@ -1,5 +1,7 @@
 const logger = (msg) => {
-    console.log(`%c ${msg}`, 'background: green; color: white; display: block;');
+    if (typeof msg !== "undefined")
+        console.log(`%c ${msg}`, 'background: green; color: white; display: block;');
+    return;
 }
 
 const groupLogger = (options) => {
@@ -18,4 +20,4 @@ const groupLogger = (options) => {
     return;
 }
 
-module.exports = { logger, logger };
+module.exports = { logger, groupLogger };
